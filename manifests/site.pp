@@ -4,7 +4,4 @@ node default {
     content => 'This is an iKeman readme',
     owner => 'root',
   }
-  file {'/root/README':
-    owner => 'root',
-  }
 }
